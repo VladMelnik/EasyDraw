@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2011 rel. 2 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<app>
+	<version>1</version>
+	<series>How to Draw</series>
+	<name>Hats</name>
+	<lesson id="1">
+		<name>Funny Hat</name>
+		<steps>7</steps>
+		<rate>2</rate>
+		<lock>0</lock>
+		<order>10</order>
+		<black>0</black>
+		<diamond>0</diamond>
+	</lesson>
+	<lesson id="2">
+		<name>Sports Cap</name>
+		<steps>6</steps>
+		<rate>1</rate>
+		<lock>0</lock>
+		<order>20</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="3">
+		<name>Jockey Hat</name>
+		<steps>6</steps>
+		<rate>2</rate>
+		<lock>1</lock>
+		<order>30</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="4">
+		<name>Santa Hat</name>
+		<steps>6</steps>
+		<rate>3</rate>
+		<lock>3</lock>
+		<order>40</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="5">
+		<name>Gentleman Hat</name>
+		<steps>5</steps>
+		<rate>4</rate>
+		<lock>0</lock>
+		<order>50</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="6">
+		<name>Blue Hat</name>
+		<steps>6</steps>
+		<rate>2</rate>
+		<lock>1</lock>
+		<order>60</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="7">
+		<name>Sombrero</name>
+		<steps>6</steps>
+		<rate>4</rate>
+		<lock>0</lock>
+		<order>70</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="8">
+		<name>Pirate Hat</name>
+		<steps>6</steps>
+		<rate>4</rate>
+		<lock>0</lock>
+		<order>80</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="9">
+		<name>Viking Helmet</name>
+		<steps>7</steps>
+		<rate>5</rate>
+		<lock>1</lock>
+		<order>90</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="10">
+		<name>Hat with Feather</name>
+		<steps>5</steps>
+		<rate>5</rate>
+		<lock>4</lock>
+		<order>100</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="11">
+		<name>Wizard Hat</name>
+		<steps>5</steps>
+		<rate>3</rate>
+		<lock>0</lock>
+		<order>110</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="12">
+		<name>Lady Hat</name>
+		<steps>6</steps>
+		<rate>3</rate>
+		<lock>1</lock>
+		<order>120</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="13">
+		<name>Joker Hat</name>
+		<steps>7</steps>
+		<rate>5</rate>
+		<lock>0</lock>
+		<order>130</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="14">
+		<name>Graduate Hat</name>
+		<steps>6</steps>
+		<rate>3</rate>
+		<lock>3</lock>
+		<order>140</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="15">
+		<name>Party HAt</name>
+		<steps>6</steps>
+		<rate>1</rate>
+		<lock>1</lock>
+		<order>150</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="16">
+		<name>Cute Beret</name>
+		<steps>5</steps>
+		<rate>2</rate>
+		<lock>0</lock>
+		<order>160</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="17">
+		<name>Hat with Bow</name>
+		<steps>5</steps>
+		<rate>4</rate>
+		<lock>0</lock>
+		<order>170</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="18">
+		<name>Cook Cap</name>
+		<steps>6</steps>
+		<rate>1</rate>
+		<lock>1</lock>
+		<order>180</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="19">
+		<name>Panama Hat</name>
+		<steps>6</steps>
+		<rate>3</rate>
+		<lock>4</lock>
+		<order>190</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="20">
+		<name>Builder Helmet</name>
+		<steps>5</steps>
+		<rate>1</rate>
+		<lock>0</lock>
+		<order>200</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+</app>

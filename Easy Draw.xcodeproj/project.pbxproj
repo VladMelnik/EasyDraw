@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840063BC1F025E4F004B478A /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840063BB1F025E4F004B478A /* GoogleMobileAds.framework */; };
+		F590CA391F0BE5E0007AE9A9 /* data_path.png in Resources */ = {isa = PBXBuildFile; fileRef = F590CA381F0BE5E0007AE9A9 /* data_path.png */; };
+		F590CA3B1F0BE65F007AE9A9 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = F590CA3A1F0BE65F007AE9A9 /* assets */; };
+		F594E2631EFD22840002953B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F594E2621EFD22840002953B /* main.m */; };
+		F594E2661EFD22840002953B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F594E2651EFD22840002953B /* AppDelegate.m */; };
+		F594E2691EFD22840002953B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F594E2681EFD22840002953B /* ViewController.m */; };
+		F594E26C1EFD22840002953B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F594E26A1EFD22840002953B /* Main.storyboard */; };
+		F594E26F1EFD22840002953B /* Easy_Draw.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F594E26D1EFD22840002953B /* Easy_Draw.xcdatamodeld */; };
+		F594E2711EFD22840002953B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F594E2701EFD22840002953B /* Assets.xcassets */; };
+		F594E2741EFD22840002953B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F594E2721EFD22840002953B /* LaunchScreen.storyboard */; };
+		F594E27F1EFD22840002953B /* Easy_DrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F594E27E1EFD22840002953B /* Easy_DrawTests.m */; };
+		F594E28A1EFD22840002953B /* Easy_DrawUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F594E2891EFD22840002953B /* Easy_DrawUITests.m */; };
+		F594E29E1EFD24130002953B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F594E29D1EFD24130002953B /* MainViewController.m */; };
+		F594E2A11EFD27E00002953B /* listdata.xml in Resources */ = {isa = PBXBuildFile; fileRef = F594E2A01EFD27E00002953B /* listdata.xml */; };
+		F594E2A51EFD28F20002953B /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F594E2A41EFD28F20002953B /* XMLDictionary.m */; };
+		F594E2A81EFD36A00002953B /* cellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F594E2A71EFD36A00002953B /* cellView.xib */; };
+		F594E2AB1EFD36AF0002953B /* cellView.m in Sources */ = {isa = PBXBuildFile; fileRef = F594E2AA1EFD36AF0002953B /* cellView.m */; };
+		F594E2B01EFD75270002953B /* InstructionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F594E2AF1EFD75270002953B /* InstructionViewController.m */; };
+		F5AA7ACD1FBDF04E00485B97 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AA7ACC1FBDF04E00485B97 /* GoogleMobileAds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F594E27B1EFD22840002953B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F594E2561EFD22840002953B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F594E25D1EFD22840002953B;
+			remoteInfo = "Easy Draw";
+		};
+		F594E2861EFD22840002953B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F594E2561EFD22840002953B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F594E25D1EFD22840002953B;
+			remoteInfo = "Easy Draw";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		840063BB1F025E4F004B478A /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		F590CA381F0BE5E0007AE9A9 /* data_path.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = data_path.png; sourceTree = "<group>"; };
+		F590CA3A1F0BE65F007AE9A9 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		F594E25E1EFD22840002953B /* Easy Draw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Draw.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F594E2621EFD22840002953B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F594E2641EFD22840002953B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F594E2651EFD22840002953B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F594E2671EFD22840002953B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F594E2681EFD22840002953B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F594E26B1EFD22840002953B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F594E26E1EFD22840002953B /* Easy_Draw.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Easy_Draw.xcdatamodel; sourceTree = "<group>"; };
+		F594E2701EFD22840002953B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F594E2731EFD22840002953B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F594E2751EFD22840002953B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F594E27A1EFD22840002953B /* Easy DrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy DrawTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F594E27E1EFD22840002953B /* Easy_DrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Easy_DrawTests.m; sourceTree = "<group>"; };
+		F594E2801EFD22840002953B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F594E2851EFD22840002953B /* Easy DrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy DrawUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F594E2891EFD22840002953B /* Easy_DrawUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Easy_DrawUITests.m; sourceTree = "<group>"; };
+		F594E28B1EFD22840002953B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F594E29C1EFD24130002953B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F594E29D1EFD24130002953B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F594E2A01EFD27E00002953B /* listdata.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = listdata.xml; sourceTree = "<group>"; };
+		F594E2A31EFD28F20002953B /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		F594E2A41EFD28F20002953B /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		F594E2A71EFD36A00002953B /* cellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellView.xib; sourceTree = "<group>"; };
+		F594E2A91EFD36AF0002953B /* cellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellView.h; sourceTree = "<group>"; };
+		F594E2AA1EFD36AF0002953B /* cellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellView.m; sourceTree = "<group>"; };
+		F594E2AE1EFD75270002953B /* InstructionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionViewController.h; sourceTree = "<group>"; };
+		F594E2AF1EFD75270002953B /* InstructionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionViewController.m; sourceTree = "<group>"; };
+		F5AA7ACC1FBDF04E00485B97 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F594E25B1EFD22840002953B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AA7ACD1FBDF04E00485B97 /* GoogleMobileAds.framework in Frameworks */,
+				840063BC1F025E4F004B478A /* GoogleMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F594E2771EFD22840002953B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F594E2821EFD22840002953B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F594E2551EFD22840002953B = {
+			isa = PBXGroup;
+			children = (
+				F594E2601EFD22840002953B /* Easy Draw */,
+				F594E27D1EFD22840002953B /* Easy DrawTests */,
+				F594E2881EFD22840002953B /* Easy DrawUITests */,
+				F594E25F1EFD22840002953B /* Products */,
+				F5E08D761EFE670E0053521E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F594E25F1EFD22840002953B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F594E25E1EFD22840002953B /* Easy Draw.app */,
+				F594E27A1EFD22840002953B /* Easy DrawTests.xctest */,
+				F594E2851EFD22840002953B /* Easy DrawUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F594E2601EFD22840002953B /* Easy Draw */ = {
+			isa = PBXGroup;
+			children = (
+				F594E2701EFD22840002953B /* Assets.xcassets */,
+				F594E2641EFD22840002953B /* AppDelegate.h */,
+				F594E2651EFD22840002953B /* AppDelegate.m */,
+				F590CA381F0BE5E0007AE9A9 /* data_path.png */,
+				F590CA3A1F0BE65F007AE9A9 /* assets */,
+				F594E2AC1EFD4E990002953B /* View */,
+				F594E2971EFD22C30002953B /* View Controllers */,
+				F594E2981EFD22E20002953B /* Main Nib Files */,
+				F594E2611EFD22840002953B /* Supporting Files */,
+			);
+			path = "Easy Draw";
+			sourceTree = "<group>";
+		};
+		F594E2611EFD22840002953B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F594E2A21EFD28E40002953B /* Libraries */,
+				F594E2991EFD23120002953B /* SDK */,
+				F594E2A01EFD27E00002953B /* listdata.xml */,
+				F594E2751EFD22840002953B /* Info.plist */,
+				F594E26D1EFD22840002953B /* Easy_Draw.xcdatamodeld */,
+				F594E2621EFD22840002953B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F594E27D1EFD22840002953B /* Easy DrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				F594E27E1EFD22840002953B /* Easy_DrawTests.m */,
+				F594E2801EFD22840002953B /* Info.plist */,
+			);
+			path = "Easy DrawTests";
+			sourceTree = "<group>";
+		};
+		F594E2881EFD22840002953B /* Easy DrawUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F594E2891EFD22840002953B /* Easy_DrawUITests.m */,
+				F594E28B1EFD22840002953B /* Info.plist */,
+			);
+			path = "Easy DrawUITests";
+			sourceTree = "<group>";
+		};
+		F594E2971EFD22C30002953B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F594E2671EFD22840002953B /* ViewController.h */,
+				F594E2681EFD22840002953B /* ViewController.m */,
+				F594E2AD1EFD75060002953B /* Instruction View Controller */,
+				F594E29F1EFD24170002953B /* Main View Controller */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F594E2981EFD22E20002953B /* Main Nib Files */ = {
+			isa = PBXGroup;
+			children = (
+				F594E26A1EFD22840002953B /* Main.storyboard */,
+				F594E2721EFD22840002953B /* LaunchScreen.storyboard */,
+			);
+			name = "Main Nib Files";
+			sourceTree = "<group>";
+		};
+		F594E2991EFD23120002953B /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				840063BB1F025E4F004B478A /* GoogleMobileAds.framework */,
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+		F594E29F1EFD24170002953B /* Main View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F594E29C1EFD24130002953B /* MainViewController.h */,
+				F594E29D1EFD24130002953B /* MainViewController.m */,
+			);
+			name = "Main View Controller";
+			sourceTree = "<group>";
+		};
+		F594E2A21EFD28E40002953B /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F594E2A31EFD28F20002953B /* XMLDictionary.h */,
+				F594E2A41EFD28F20002953B /* XMLDictionary.m */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		F594E2A61EFD36900002953B /* cellView */ = {
+			isa = PBXGroup;
+			children = (
+				F594E2A71EFD36A00002953B /* cellView.xib */,
+				F594E2A91EFD36AF0002953B /* cellView.h */,
+				F594E2AA1EFD36AF0002953B /* cellView.m */,
+			);
+			name = cellView;
+			sourceTree = "<group>";
+		};
+		F594E2AC1EFD4E990002953B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F594E2A61EFD36900002953B /* cellView */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F594E2AD1EFD75060002953B /* Instruction View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F594E2AE1EFD75270002953B /* InstructionViewController.h */,
+				F594E2AF1EFD75270002953B /* InstructionViewController.m */,
+			);
+			name = "Instruction View Controller";
+			sourceTree = "<group>";
+		};
+		F5E08D761EFE670E0053521E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5AA7ACC1FBDF04E00485B97 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F594E25D1EFD22840002953B /* Easy Draw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F594E28E1EFD22840002953B /* Build configuration list for PBXNativeTarget "Easy Draw" */;
+			buildPhases = (
+				F594E25A1EFD22840002953B /* Sources */,
+				F594E25B1EFD22840002953B /* Frameworks */,
+				F594E25C1EFD22840002953B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Easy Draw";
+			productName = "Easy Draw";
+			productReference = F594E25E1EFD22840002953B /* Easy Draw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F594E2791EFD22840002953B /* Easy DrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F594E2911EFD22840002953B /* Build configuration list for PBXNativeTarget "Easy DrawTests" */;
+			buildPhases = (
+				F594E2761EFD22840002953B /* Sources */,
+				F594E2771EFD22840002953B /* Frameworks */,
+				F594E2781EFD22840002953B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F594E27C1EFD22840002953B /* PBXTargetDependency */,
+			);
+			name = "Easy DrawTests";
+			productName = "Easy DrawTests";
+			productReference = F594E27A1EFD22840002953B /* Easy DrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F594E2841EFD22840002953B /* Easy DrawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F594E2941EFD22840002953B /* Build configuration list for PBXNativeTarget "Easy DrawUITests" */;
+			buildPhases = (
+				F594E2811EFD22840002953B /* Sources */,
+				F594E2821EFD22840002953B /* Frameworks */,
+				F594E2831EFD22840002953B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F594E2871EFD22840002953B /* PBXTargetDependency */,
+			);
+			name = "Easy DrawUITests";
+			productName = "Easy DrawUITests";
+			productReference = F594E2851EFD22840002953B /* Easy DrawUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F594E2561EFD22840002953B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = VM;
+				TargetAttributes = {
+					F594E25D1EFD22840002953B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2X6YHLUCBC;
+						ProvisioningStyle = Automatic;
+					};
+					F594E2791EFD22840002953B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 22938JEBNE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F594E25D1EFD22840002953B;
+					};
+					F594E2841EFD22840002953B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 22938JEBNE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F594E25D1EFD22840002953B;
+					};
+				};
+			};
+			buildConfigurationList = F594E2591EFD22840002953B /* Build configuration list for PBXProject "Easy Draw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F594E2551EFD22840002953B;
+			productRefGroup = F594E25F1EFD22840002953B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F594E25D1EFD22840002953B /* Easy Draw */,
+				F594E2791EFD22840002953B /* Easy DrawTests */,
+				F594E2841EFD22840002953B /* Easy DrawUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F594E25C1EFD22840002953B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F594E2741EFD22840002953B /* LaunchScreen.storyboard in Resources */,
+				F594E2A81EFD36A00002953B /* cellView.xib in Resources */,
+				F590CA3B1F0BE65F007AE9A9 /* assets in Resources */,
+				F590CA391F0BE5E0007AE9A9 /* data_path.png in Resources */,
+				F594E2A11EFD27E00002953B /* listdata.xml in Resources */,
+				F594E2711EFD22840002953B /* Assets.xcassets in Resources */,
+				F594E26C1EFD22840002953B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F594E2781EFD22840002953B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F594E2831EFD22840002953B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F594E25A1EFD22840002953B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F594E2691EFD22840002953B /* ViewController.m in Sources */,
+				F594E26F1EFD22840002953B /* Easy_Draw.xcdatamodeld in Sources */,
+				F594E2AB1EFD36AF0002953B /* cellView.m in Sources */,
+				F594E2661EFD22840002953B /* AppDelegate.m in Sources */,
+				F594E2631EFD22840002953B /* main.m in Sources */,
+				F594E29E1EFD24130002953B /* MainViewController.m in Sources */,
+				F594E2A51EFD28F20002953B /* XMLDictionary.m in Sources */,
+				F594E2B01EFD75270002953B /* InstructionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F594E2761EFD22840002953B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F594E27F1EFD22840002953B /* Easy_DrawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F594E2811EFD22840002953B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F594E28A1EFD22840002953B /* Easy_DrawUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F594E27C1EFD22840002953B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F594E25D1EFD22840002953B /* Easy Draw */;
+			targetProxy = F594E27B1EFD22840002953B /* PBXContainerItemProxy */;
+		};
+		F594E2871EFD22840002953B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F594E25D1EFD22840002953B /* Easy Draw */;
+			targetProxy = F594E2861EFD22840002953B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F594E26A1EFD22840002953B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F594E26B1EFD22840002953B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F594E2721EFD22840002953B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F594E2731EFD22840002953B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F594E28C1EFD22840002953B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F594E28D1EFD22840002953B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F594E28F1EFD22840002953B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
+				DEVELOPMENT_TEAM = 2X6YHLUCBC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Easy\\ Draw",
+					"$(PROJECT_DIR)/Easy\\ Draw",
+					"$(PROJECT_DIR)/Easy\\ Draw",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Easy Draw/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F594E2901EFD22840002953B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
+				DEVELOPMENT_TEAM = 2X6YHLUCBC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Easy\\ Draw",
+					"$(PROJECT_DIR)/Easy\\ Draw",
+					"$(PROJECT_DIR)/Easy\\ Draw",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Easy Draw/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F594E2921EFD22840002953B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 22938JEBNE;
+				INFOPLIST_FILE = "Easy DrawTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VM.Easy-DrawTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy Draw.app/Easy Draw";
+			};
+			name = Debug;
+		};
+		F594E2931EFD22840002953B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 22938JEBNE;
+				INFOPLIST_FILE = "Easy DrawTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VM.Easy-DrawTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy Draw.app/Easy Draw";
+			};
+			name = Release;
+		};
+		F594E2951EFD22840002953B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 22938JEBNE;
+				INFOPLIST_FILE = "Easy DrawUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VM.Easy-DrawUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Easy Draw";
+			};
+			name = Debug;
+		};
+		F594E2961EFD22840002953B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 22938JEBNE;
+				INFOPLIST_FILE = "Easy DrawUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VM.Easy-DrawUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Easy Draw";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F594E2591EFD22840002953B /* Build configuration list for PBXProject "Easy Draw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F594E28C1EFD22840002953B /* Debug */,
+				F594E28D1EFD22840002953B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F594E28E1EFD22840002953B /* Build configuration list for PBXNativeTarget "Easy Draw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F594E28F1EFD22840002953B /* Debug */,
+				F594E2901EFD22840002953B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F594E2911EFD22840002953B /* Build configuration list for PBXNativeTarget "Easy DrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F594E2921EFD22840002953B /* Debug */,
+				F594E2931EFD22840002953B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F594E2941EFD22840002953B /* Build configuration list for PBXNativeTarget "Easy DrawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F594E2951EFD22840002953B /* Debug */,
+				F594E2961EFD22840002953B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F594E26D1EFD22840002953B /* Easy_Draw.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F594E26E1EFD22840002953B /* Easy_Draw.xcdatamodel */,
+			);
+			currentVersion = F594E26E1EFD22840002953B /* Easy_Draw.xcdatamodel */;
+			path = Easy_Draw.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F594E2561EFD22840002953B /* Project object */;
+}
